@@ -24,7 +24,7 @@ from sklearn.neural_network import MLPClassifier
 def main():
 
     # gather data
-    file_name="cumulative_2023.11.07_13.44.30.csv"
+    file_name="cumulative_2023.11.07_13.44.30 (1).csv"
     df=pd.read_csv(file_name,skiprows=41)
 
     # drop duplicates
